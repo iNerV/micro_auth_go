@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2682fef7-fd17-4c43-a739-f9daeb722b0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.ci" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a25b23b-a2be-4756-b477-023ae31f3bac.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a25b23b-a2be-4756-b477-023ae31f3bac/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a25b23b-a2be-4756-b477-023ae31f3bac/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a25b23b-a2be-4756-b477-023ae31f3bac/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3a25b23b-a2be-4756-b477-023ae31f3bac/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/nerv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/micro_auth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage-all.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/application/app.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/auth/api/rest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/auth/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/auth/services/services.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/auth/tests/api/api_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/auth/tests/functional/jwt_auth_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/auth/tests/unit/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/auth/urls.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/database/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/database/migrations/000001_init_a12n.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/database/migrations/000001_init_a12n.up.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/errors/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/errors/tests/unit/response_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/healthcheck/api/rest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/healthcheck/tests/api/api_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/healthcheck/urls.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/log/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/router/middlewares.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/router/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/router/tests/api/api_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/router/typings/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/test/api_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/test/migration.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/test/suite.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/test/utils.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="users: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VWJ4oS7nNzxhjvZ4WSN5Tg96Kk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/internal/healthcheck" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/internal/healthcheck" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/internal" />
+      <recent name="$PROJECT_DIR$/internal/database" />
+      <recent name="$PROJECT_DIR$/cmd/server" />
+      <recent name="$PROJECT_DIR$/cmd" />
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Makefile.test-cover">
+    <configuration name="TestCorsForAllEndpoints in micro_auth/internal/router/tests/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="micro_auth" />
+      <working_directory value="$PROJECT_DIR$/internal/router/tests/api" />
+      <parameters value=" -testify.m ^TestCorsForAllEndpoints$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="micro_auth/internal/router/tests/api" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGettingTokenIsToken in micro_auth/internal/auth/tests/functional" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="micro_auth" />
+      <working_directory value="$PROJECT_DIR$/internal/auth/tests/functional" />
+      <parameters value=" -testify.m ^TestGettingTokenIsToken$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="micro_auth/internal/auth/tests/functional" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_make_random_password in micro_auth/internal/auth/tests/unit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="micro_auth" />
+      <working_directory value="$PROJECT_DIR$/internal/auth/tests/unit" />
+      <parameters value=" -testify.m ^Test_make_random_password$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="micro_auth/internal/auth/tests/unit" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test-cover" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="test-cover" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="test" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.Test_make_random_password in micro_auth/internal/auth/tests/unit" />
+      <item itemvalue="Go Test.TestCorsForAllEndpoints in micro_auth/internal/router/tests/api" />
+      <item itemvalue="Go Test.TestGettingTokenIsToken in micro_auth/internal/auth/tests/functional" />
+      <item itemvalue="Makefile.test" />
+      <item itemvalue="Makefile.test-cover" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.test-cover" />
+        <item itemvalue="Makefile.test" />
+        <item itemvalue="Go Test.TestGettingTokenIsToken in micro_auth/internal/auth/tests/functional" />
+        <item itemvalue="Go Test.TestCorsForAllEndpoints in micro_auth/internal/router/tests/api" />
+        <item itemvalue="Go Test.Test_make_random_password in micro_auth/internal/auth/tests/unit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#SQL_Dialects" timestamp="1582135735112">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#SQL_Dialects/0.0.1680.1050@0.0.1680.1050" timestamp="1582135735112" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580304292026">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580304292026" />
+    <state x="566" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577389142001">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="566" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1577389142001" />
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1580669559473">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1580669559473" />
+    <state x="528" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582301347696">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="528" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582301347696" />
+    <state x="535" y="160" key="#go_build_test_api.go" timestamp="1579198520935">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="535" y="160" key="#go_build_test_api.go/0.0.1680.1050@0.0.1680.1050" timestamp="1579198520935" />
+    <state x="339" y="126" key="CommitChangelistDialog2" timestamp="1583334934042">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="339" y="126" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1583334934042" />
+    <state x="698" y="408" key="DockerComposeFileDialog" timestamp="1580304127495">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="698" y="408" key="DockerComposeFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580304127495" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1582630566327">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582630566327" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1582630566326">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582630566326" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1582630566325">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582630566325" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1582630566327">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582630566327" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1582888007255">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1582888007255" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1582878015370">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1582878015370" />
+    <state x="694" y="302" width="350" height="446" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582213749699">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="694" y="302" width="350" height="446" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1680.1050@0.0.1680.1050" timestamp="1582213749699" />
+    <state x="578" y="337" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1582229367905">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="337" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582229367905" />
+    <state x="21" y="79" width="1554" height="870" key="dock-window-1" timestamp="1582277759461">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="21" y="79" width="1554" height="870" key="dock-window-1/0.0.1680.1050@0.0.1680.1050" timestamp="1582277759460" />
+    <state x="100" y="100" width="1480" height="850" key="dock-window-1/80.23.1600.1027@80.23.1600.1027" timestamp="1579362175628" />
+    <state x="100" y="100" width="1480" height="850" key="dock-window-2" timestamp="1579362175630">
+      <screen x="80" y="23" width="1600" height="1027" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="dock-window-2/80.23.1600.1027@80.23.1600.1027" timestamp="1579362175630" />
+    <state x="645" y="359" key="export.test.results" timestamp="1582566102824">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="645" y="359" key="export.test.results/0.0.1680.1050@0.0.1680.1050" timestamp="1582566102824" />
+    <state x="498" y="160" width="683" height="729" key="find.popup" timestamp="1582304089607">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="498" y="160" width="683" height="729" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582304089607" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1580411096056">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1580411096056" />
+    <state x="602" y="140" key="refactoring.ChangeSignatureDialog" timestamp="1580666725198">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="602" y="140" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580666725198" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1580414098175">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1580414098175" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/micro_auth$TestHealthCheckHandler_in_micro_auth_a12n_tests_api.out" NAME="TestHealthCheckHandler in micro_auth/a12n/tests/api Coverage Results" MODIFIED="1579199685000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
